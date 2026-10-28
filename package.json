@@ -1,0 +1,9 @@
+{
+  "name": "bilet-na-fabriku",
+  "private": true,
+  "description": "Тренажёр орфографии для 1–4 класса: «Билет на шоколадную фабрику»",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "words": "python3 tools/build_words.py data"
+  }
+}
